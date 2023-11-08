@@ -8,4 +8,4 @@ Code128("CH2210-Chandan-WBL", writer=ImageWriter()).write(rv)
 
 # Saving to a file:
 with open("barcode.png", "wb") as f:
-    Code128("CH2210-Chandan-WBL", writer=ImageWriter()).write(f)
+    Code128("CH2210-Vishal-WBL", writer=ImageWriter()).write(f)
